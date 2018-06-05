@@ -35,7 +35,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "~> 4.0.0"
   s.add_dependency "will_paginate", "~> 3.0"
-  s.add_dependency "jquery-rails", "~> 2.0"
+  s.add_dependency "jquery-rails"#, "~> 2.0"
 
   s.add_development_dependency "minitest"
   s.add_development_dependency "capybara"
